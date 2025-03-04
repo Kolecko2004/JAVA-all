@@ -10,24 +10,6 @@ public final class TextIO {
 
     }
 
-//    public int processLine() {
-//        int numberFromLine;
-//        numOfScannedLines++;
-//        String newLine = getLine();
-//
-//        if (!newLine.isEmpty()) {
-//            if (isInteger(newLine)) {
-//                numberFromLine = Integer.parseInt(newLine);
-//                return numberFromLine;
-//            } else {
-//                System.out.println("A number has not been parsed from line " + numOfScannedLines + "\n" + "End of input detected!");
-//                return 0;
-//            }
-//        }
-//
-//        return 0;
-//    }
-
     /**
      * Get next line from stdin
      *

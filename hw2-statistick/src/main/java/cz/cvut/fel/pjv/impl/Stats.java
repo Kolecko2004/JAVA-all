@@ -1,16 +1,15 @@
 package cz.cvut.fel.pjv.impl;
-
 import cz.cvut.fel.pjv.StatsInterface;
-
 import java.util.ArrayList;
 
 public class Stats implements StatsInterface {
-    // TODO implement all methods from StatsInterface
     ArrayList<Double> numbersList = new ArrayList<>();
-
 
     @Override
     public void addNumber(double number) {
+        if (getCount() == 10) {
+            nullValues();
+        }
         numbersList.add(number);
     }
 
@@ -26,22 +25,13 @@ public class Stats implements StatsInterface {
 
     @Override
     public double getStandardDeviation() {
-        double[] difArray = new double[getCount()];
-        double average = getAverage();
+        double sum = 0;
 
         for (int idx = 0; idx < getCount(); idx++) {
-            difArray[idx] = Math.pow(numbersList.get(idx) - average, 2);
+            sum += Math.pow(numbersList.get(idx) - getAverage(), 2);
         }
 
-        double sum = 0;
-        for (double num : difArray) {
-            sum += num;
-        }
-
-        double newAverage = Math.sqrt(sum / getCount());
-        nullValues();
-
-        return newAverage;
+        return Math.sqrt(sum / getCount());
     }
 
     @Override
@@ -51,7 +41,7 @@ public class Stats implements StatsInterface {
 
     @Override
     public String getFormattedStatistics() {
-        return "";
+        return String.format("%2d %.3f %.3f", getCount(), getAverage(), getStandardDeviation());
     }
 
     void nullValues() {
