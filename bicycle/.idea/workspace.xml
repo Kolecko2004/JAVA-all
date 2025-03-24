@@ -5,22 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eaad2dd6-7649-427b-8503-8a067a2116fd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/BasicService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Bicycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/BicycleHolder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/BicycleVisitable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/BikeColor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MountainBike.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MountainBikeHolder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MountainBikeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/RoadBike.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/RoadBikeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TestBikes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cv2-JAVA-kolecko-cvut-fel/src/main/java/cz/cvut/fel/pjv/cars/Race.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cv2-JAVA-kolecko-cvut-fel/src/main/java/cz/cvut/fel/pjv/cars/data/CarLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cv2-JAVA-kolecko-cvut-fel/src/main/java/cz/cvut/fel/pjv/cars/data/CarListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw2-statistick/target/classes/cz/cvut/fel/pjv/impl/Stats.class" beforeDir="false" afterPath="$PROJECT_DIR$/../hw2-statistick/target/classes/cz/cvut/fel/pjv/impl/Stats.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/src/main/java/cz/cvut/fel/pjv/BruteForceAttacker.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hw4/src/main/java/cz/cvut/fel/pjv/BruteForceAttacker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/src/main/java/cz/cvut/fel/pjv/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hw4/src/main/java/cz/cvut/fel/pjv/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/target/classes/cz/cvut/fel/pjv/BruteForceAttacker.class" beforeDir="false" afterPath="$PROJECT_DIR$/../hw4/target/classes/cz/cvut/fel/pjv/BruteForceAttacker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/target/classes/cz/cvut/fel/pjv/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../hw4/target/classes/cz/cvut/fel/pjv/Test.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,21 +26,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Kolecko2004"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Kolecko2004&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Kolecko2004/JAVA-all.git",
-    "accountId": "b6f8c855-998c-47a0-af33-247b93827127"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Kolecko2004/JAVA-all.git&quot;,
+    &quot;accountId&quot;: &quot;b6f8c855-998c-47a0-af33-247b93827127&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2uDumFWoO9gt7n3tbIBMJRbueoy" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -65,6 +53,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/ditad/Documents/Škola/Semestr-2/JAVA-all/Box",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -76,8 +65,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.24978.46" />
-        <option value="bundled-js-predefined-d6986cc7102b-76f8388c3a79-JavaScript-IU-243.24978.46" />
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.25659.39" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.25659.39" />
       </set>
     </attachedChunks>
   </component>
@@ -90,6 +79,7 @@
       <option name="presentableId" value="Default" />
       <updated>1741795627343</updated>
       <workItem from="1741795628643" duration="3712000" />
+      <workItem from="1742400573347" duration="77000" />
     </task>
     <servers />
   </component>

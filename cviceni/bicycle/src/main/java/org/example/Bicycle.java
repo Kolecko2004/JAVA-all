@@ -1,7 +1,8 @@
 package org.example;
 
 public class Bicycle {
-    protected int cadence;
+    protected
+    int cadence;
     protected int speed;
     protected int gear;
     protected BikeColor color;
