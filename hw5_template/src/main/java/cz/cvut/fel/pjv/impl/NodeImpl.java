@@ -4,20 +4,26 @@ import cz.cvut.fel.pjv.Node;
 
 public class NodeImpl implements Node {
 
-    // TODO: implement this class
+    int value;
+    NodeImpl left;
+    NodeImpl right;
 
-    @Override
-    public Node getLeft() {
-        return null;
+    public NodeImpl(int value) {
+        this.value = value;
+        this.left = null;
+        this.right = null;
     }
 
     @Override
+    public Node getLeft() { return left; }
+
+    @Override
     public Node getRight() {
-        return null;
+        return right;
     }
 
     @Override
     public int getValue() {
-        return 0;
+        return value;
     }
 }
