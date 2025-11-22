@@ -19,11 +19,7 @@ Inside, you'll find:
 Feel free to browse, learn from the code, or use it as inspiration.
 
 📂 Structure                 
-JAVA-all/              
-├── excercises/             
-├── home_works/        
-├── lectures/    
-├── practice/      
+JAVA-all/                
 └── ...      
 
 📫 Contact
